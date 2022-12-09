@@ -2,8 +2,9 @@
 /**
  * main - print sizes of data types
  * let us code
- * Retrun: 0
+ * Return: 0
  */
+
 int main(void)
 {
 	char a;
