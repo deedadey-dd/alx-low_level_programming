@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - sizes of data types
- * code by bwave ict
+ * main - print sizes of data types
+ * let us code
  * Retrun: 0
  */
 int main(void)
