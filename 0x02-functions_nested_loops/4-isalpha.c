@@ -1,8 +1,8 @@
 include "main.h"
 /**
- * isalpha - checks for alphabet
+ * _isalpha - checks for alphabet
  * @c: this is the character
- * Return: 1 if c is an alphabet 0 if not
+ * Return: 1 if c is an alphabet 0 otherwise
  */
 int _isalpha(int c)
 {
