@@ -1,13 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * print_alphabet_x10 - print the alphabets 10x
  */
-int main(void)
-{
-	print_alphabet_x10(void);
+void print_alphabet_x10(void);
 	{
 		char ch;
 		int i;
@@ -18,5 +14,3 @@ int main(void)
 		}
 		_putchat('\n')
 	}
-	return (0);
-}
