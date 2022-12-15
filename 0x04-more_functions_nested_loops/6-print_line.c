@@ -1,21 +1,18 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * print_line - draws a straight line
- * @n: number of times the character should be printed
+ * print_line - Draws a straight line
+ * @n: The number of _ characters to be printed
  */
 void print_line(int n)
 {
-	if (n <= 0)
+	int len;
+
+	if (n > 0)
 	{
-		_putchar('\n');
-	} else
-	{
-		int i;
-		for (i = 1; i <= n; i++)
-		{
+		for (len = 0; len < n; len++)
 			_putchar('_');
-		}
-		_putchar('\n');
 	}
+
+	_putchar('\n');
 }
