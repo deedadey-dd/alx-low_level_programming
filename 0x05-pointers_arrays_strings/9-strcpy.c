@@ -2,20 +2,20 @@
 
 /**
  * _strcpy - Copies a string pointed to by @src, including the
- * @loc: A buffer to copy the string to.
- * @src: The source string to copy.
+ * @dest: A buffer
+ * @src: The source string
  *
- * Return: A pointer to the destination string @loc
+ * Return: A pointer to the destination string @dest.
  */
-char *_strcpy(char *loc, const char *src)
+char *_strcpy(char *dest, const char *src)
 {
 	int index = 0;
 
 	while (src[index])
 	{
-		loc[index] = src[index];
+		dest[index] = src[index];
 		index++;
 	}
 
-	return (loc);
+	return (dest);
 }
