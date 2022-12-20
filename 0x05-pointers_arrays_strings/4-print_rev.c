@@ -1,16 +1,25 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_most_numbers - Prints the numbers from 0-9 except for 2 and 4.
+ * print_rev - prints a string, in reverse order
+ * @s: string to be printed
  */
-void print_most_numbers(void)
+void print_rev(char *s)
 {
-	int num;
+	int a, b, len;
 
-	for (num = 0; num <= 9; num++)
+	a = 0;
+
+	while (s[a] != '\0')
 	{
-		if (num != 2 && num != 4)
-			_putchar((num % 10) + '0');
+		a++;
+	}
+
+	len = a;
+
+	for (b = len - 1; b >= 0; b--)
+	{
+		_putchar(s[b]);
 	}
 
 	_putchar('\n');
