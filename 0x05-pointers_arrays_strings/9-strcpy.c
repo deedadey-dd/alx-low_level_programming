@@ -3,8 +3,7 @@
 /**
  * _strcpy - Copies a string pointed to by @src, including the
  * @dest: A temporal storage.
- * @src: The source string to copy.
- *
+ * @src: The source string
  * Return: A pointer to the destination string @dest.
  */
 char *_strcpy(char *dest, const char *src)
