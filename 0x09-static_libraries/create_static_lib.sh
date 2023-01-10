@@ -1,4 +1,4 @@
 #!/bin/bash
-gcc -c *.c
-ar cr libmy.a *.o
-ranlib libmy.a
+gcc -Wall -pedantic -Werror -Wextra -c *.c
+ar cr liball.a *.o
+ranlib liball.a
