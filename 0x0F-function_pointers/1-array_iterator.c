@@ -1,4 +1,4 @@
-#include "main.h"
+#include "funciton_pointers.h"
 #include <stdlib.h>
 
 /**
